@@ -8,13 +8,10 @@ const std::array<std::vector< LanguageInfo::Instruction>, LanguageInfo::Category
     { {"inc", 0x00},
       {"dec", 0x01},
       {"asl", 0x02},
-      {"asr", 0x03}, },
+      {"asr", 0x03} },
 
-    { {"real_sqrt", 0x10}, 
-      {"real_sqrt_inv", 0x11}, 
-      {"neg", 0x12},
-      {"real_clamp", 0x13), 
-      {"int_real", 0x14} },
+    { {"real_clamp", 0x10), 
+      {"int_real", 0x11} },
 
     { {"add", 0x20},
       {"sub", 0x21},
@@ -22,8 +19,7 @@ const std::array<std::vector< LanguageInfo::Instruction>, LanguageInfo::Category
       {"real_mul", 0x23},
       {"and", 0x24},
       {"or", 0x25},
-      {"xor", 0x26},
-      {"real_div", 0x26}, },
+      {"xor", 0x26} },
 
     { {"load", 0x30},
       {"store", 0x31} },
