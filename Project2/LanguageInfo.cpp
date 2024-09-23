@@ -13,7 +13,8 @@ const std::array<std::vector< LanguageInfo::Instruction>, LanguageInfo::Category
     { {"real_sqrt", 0x10}, 
       {"real_sqrt_inv", 0x11}, 
       {"neg", 0x12},
-      {"int_real", 0x13}},
+      {"real_clamp", 0x13), 
+      {"int_real", 0x14} },
 
     { {"add", 0x20},
       {"sub", 0x21},
@@ -30,7 +31,7 @@ const std::array<std::vector< LanguageInfo::Instruction>, LanguageInfo::Category
     { {"ret", 0x40} },
 
     { {"jmp", 0x41},
-      {"call", 0x42}, },
+      {"call", 0x42} },
 
     { {"jz", 0x50},
       {"jnz", 0x51},
